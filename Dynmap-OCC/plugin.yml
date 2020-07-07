@@ -1,0 +1,12 @@
+main: to.epac.factorycraft.dynmapocc.DynmapOCC
+version: 1.0.0
+name: DynmapOCC
+author: i998979
+description: Integrated Dynmap online OCC controlling TrainCarts
+api-version: 1.13
+depend: [dynmap]
+
+commands:
+  dynmapocc:
+    aliases: [docc]
+    description: Main command
