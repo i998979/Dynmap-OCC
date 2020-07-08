@@ -11,7 +11,6 @@ Dynmap-OCC is a Dynmap addon which provides online control to TrainCarts trains.
 
 ## Installation
 
-
 **This addon is developed based on Spigot 1.14.4, you may use other versions at your own risk.**
 
 - Install XAMPP (Apache required)
@@ -26,11 +25,21 @@ Dynmap-OCC is a Dynmap addon which provides online control to TrainCarts trains.
 - Start the web server
 
 
+
+## Known Bugs
+
+Sometimes HTML input disappears when the marker is clicked, you have to reload the plugin to make it appear again
+
+
+
 ## Concept
 
 The plugin control train properties with commands, with PHP-Source-Query, you can run commands with it (rcon in server.properties required).
 
+PHP-Source-Query can be found here https://github.com/xPaw/PHP-Source-Query
+
 Dynmap markers description support HTML code, so we can make use of it to make Dynmap interactable.
+
 
 
 ## **Terms of Use**
